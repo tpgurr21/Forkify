@@ -1,5 +1,6 @@
-.parcel-cache/6054c31dbe703fb9-BundleGraph-0,
-.dist,
-.parcel-cache,
-.node_modules,
-dist/index.e37f48ea.js
+dist
+.parcel-cache
+node_modules
+dist
+parcel-cache
+package-lock.json
