@@ -33,3 +33,5 @@ const controlRecipes = async function () {
 );
 // window.addEventListener('hashchange', controlRecipes); // above thing is the same
 // window.addEventListener('load', controlRecipes);
+
+const API_URL = 'http://forkify-api.herokuapp.com/api/v2/recipes';
