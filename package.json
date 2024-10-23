@@ -2,9 +2,10 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Thomas Gurr",
   "license": "ISC",
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "core-js": "^3.38.1",
+    "fracty": "^1.0.11",
     "regenerator-runtime": "^0.14.1"
   }
 }
